@@ -28,7 +28,7 @@ A canonical agent architecture implementation with tools, built for production-r
 **macOS/Linux:**
 ```bash
 # Clone the repository
-git clone https://github.com/dpguthrie/canonical-agent.git
+git clone https://github.com/dpguthrie/canonical-agent-architecture.git
 cd canonical-agent
 
 # Install uv if you haven't already
@@ -41,7 +41,7 @@ uv sync
 **Windows (PowerShell):**
 ```powershell
 # Clone the repository
-git clone https://github.com/dpguthrie/canonical-agent.git
+git clone https://github.com/dpguthrie/canonical-agent-architecture.git
 cd canonical-agent
 
 # Install uv if you haven't already
@@ -56,7 +56,7 @@ uv sync
 **macOS/Linux:**
 ```bash
 # Clone the repository
-git clone https://github.com/dpguthrie/canonical-agent.git
+git clone https://github.com/dpguthrie/canonical-agent-architecture.git
 cd canonical-agent
 
 # Create virtual environment
@@ -70,7 +70,7 @@ pip install -e .
 **Windows (Command Prompt):**
 ```cmd
 # Clone the repository
-git clone https://github.com/dpguthrie/canonical-agent.git
+git clone https://github.com/dpguthrie/canonical-agent-architecture.git
 cd canonical-agent
 
 # Create virtual environment
@@ -84,7 +84,7 @@ pip install -e .
 **Windows (PowerShell):**
 ```powershell
 # Clone the repository
-git clone https://github.com/dpguthrie/canonical-agent.git
+git clone https://github.com/dpguthrie/canonical-agent-architecture.git
 cd canonical-agent
 
 # Create virtual environment
