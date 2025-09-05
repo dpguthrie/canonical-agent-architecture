@@ -2,6 +2,8 @@
 
 A canonical agent architecture implementation with tools, built for production-ready AI agents. This project demonstrates a clean, debuggable foundation using a while loop pattern with tool integration and comprehensive evaluation capabilities.
 
+**Inspired by:** [The canonical agent architecture: A while loop with tools](https://www.braintrust.dev/blog/agent-while-loop) - Braintrust's blog post on building reliable agents with simple, composable patterns.
+
 ## Features
 
 - **Canonical Agent Architecture**: Clean while loop implementation with tool calling
@@ -350,7 +352,7 @@ For questions and support:
 
 ## Architecture Notes
 
-This implementation follows the "canonical agent architecture" pattern, which provides:
+This implementation follows the "canonical agent architecture" pattern as described in [Braintrust's blog post](https://www.braintrust.dev/blog/agent-while-loop), which provides:
 
 - **Simplicity**: Easy to understand and debug
 - **Flexibility**: Easy to add new tools and capabilities
@@ -358,4 +360,4 @@ This implementation follows the "canonical agent architecture" pattern, which pr
 - **Reliability**: Proper error handling and iteration limits
 - **Testability**: Comprehensive evaluation framework
 
-The while loop pattern ensures predictable behavior while allowing for complex multi-step reasoning and tool usage.
+The while loop pattern ensures predictable behavior while allowing for complex multi-step reasoning and tool usage. As the blog post notes, this pattern wins for the same reason as UNIX pipes and React components: it's simple, composable, and flexible enough to handle complexity without becoming complex itself.
